@@ -1,10 +1,3 @@
-highlight Cursor guifg=white guibg=black
-highlight iCursor guifg=white guibg=steelblue
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:ver100-iCursor
-set guicursor+=n-v-c:blinkon0
-set guicursor+=i:blinkwait10
-:set guicursor+=a:blinkon0   " Disable all blinking:
 :set tabstop=2
 :set shiftwidth=2
 :set expandtab
@@ -22,4 +15,5 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'mattn/emmet-vim'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'townk/vim-autoclose'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
